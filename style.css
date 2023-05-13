@@ -710,7 +710,7 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
 }
 .contact__info p{
-  font-size: 24px;
+  
   margin-bottom: 130px;
 }
 /* --------------------------------------- */
