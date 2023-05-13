@@ -237,7 +237,7 @@ h3 {
 }
 
 h2 {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-medium);
     margin-bottom: var(--gutter-medium);
 }
 
@@ -265,13 +265,13 @@ h3 {
     }
 
     h3 {
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-medium-1);
     }
 }
 
 p {
     margin: var(--gutter-small-1) 0;
-    font-size:  3.25rem;
+    font-size:  4.5rem;
 }
 
 @media(max-width: 900px) {
