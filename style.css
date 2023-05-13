@@ -271,7 +271,7 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
-    font-size:  1.25rem;
+    font-size:  1.50rem;
 }
 
 @media(max-width: 900px) {
@@ -710,7 +710,7 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
 }
 .contact__info p{
-  
+ font-size:1.50rem;
   margin-bottom: 130px;
 }
 /* --------------------------------------- */
