@@ -271,6 +271,7 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
+    font-size:  1.25rem;
 }
 
 @media(max-width: 900px) {
