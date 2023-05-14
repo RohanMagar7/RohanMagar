@@ -633,12 +633,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 
-
-/*course*/
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
-.row
+.roww
 {
     display: flex;
     justify-content: center;
@@ -646,7 +641,7 @@ body:not(.user-is-tabbing) a:focus {
     min-height: 100vh;
     background: #222;
 }
-.container
+.containerr
 {
     position: relative;
     display: flex;
@@ -656,7 +651,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 60px 0;
     gap: 60px;
 }
-.container .box
+.containerr .boxx
 {
     position: relative;
     width: 300px;
@@ -666,7 +661,7 @@ body:not(.user-is-tabbing) a:focus {
     justify-content: center;
     align-items: center;
 }
-.container .box::before
+.containerr .boxx::before
 {
     content: '';
     position: absolute;
@@ -677,12 +672,12 @@ body:not(.user-is-tabbing) a:focus {
     transform: skewY(15deg);
     transition: 0.5s ease-in-out;
 }
-.container .box:hover::before
+.containerr .boxx:hover::before
 {
     transform: skewY(0deg);
     inset: -10px 40px;
 }
-.container .box::after
+.containerr .boxx::after
 {
     content: '';
     position: absolute;
@@ -693,15 +688,78 @@ body:not(.user-is-tabbing) a:focus {
     transform: skew(15deg);
     transition: 0.5s ease-in-out;
 }
-.container .box:hover::after
+.containerr .boxx:hover::after
 {
     transform: skew(0deg);
     inset: 40px -10px;
 }
-.container .box .content
+.containerr .boxx .contentt
 {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-di
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.containerr .boxx .contentt .icon
+{
+    color: var(--clr);
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 0 4px #2e2e2e,0 0 0 6px var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    background: #2e2e2e;
+    transition: 0.5s ease-in-out;
+}
+.containerr .boxx:hover .contentt .icon 
+{
+    background: var(--clr);
+    color: #2e2e2e;
+    box-shadow: 0 0 0 4px #2e2e2e,0 0 0 300px var(--clr);
+}
+.containerr .boxx .contentt .text h3
+{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.containerr .boxx:hover .contentt.text h3
+{
+    color: #2e2e2e;
+}
+.containerr .boxx .contentt .text p
+{
+    color: #999;
+    transition: 0.5s ease-in-out;
+}
+.containerr .boxx:hover .contentt .text p
+{
+    color: #2e2e2e;
+}
+.containerr .boxx .contentt .text a
+{
+    position: relative;
+    background: var(--clr);
+    color: #2e2e2e;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+.containerr .boxx:hover .contentt .text a
+{
+    background: #2e2e2e;
+    color: var(--clr);
+}
