@@ -6,7 +6,7 @@ build/
 coverage/
 *.tsbuildinfo
 .env*
-!.env.example
+.env.example
 .env.local
 .DS_Store
 certificates/
